@@ -1,0 +1,46 @@
+.navigation {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    overflow: hidden;
+    padding: 5px 10px 10px 10px;
+}
+
+.navigation .title {
+    font-size: 4rem;
+    color: white;
+    font-weight: 300;
+    width: 50%;
+}
+
+@media (max-width: 1270px) {
+    .navigation .title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navigation .title {
+        font-size: 3.5rem;
+    }
+}
+
+
+@media (max-width: 860px) {
+    .navigation .title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .navigation .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .navigation .title {
+        font-size: 2rem;
+    }
+}

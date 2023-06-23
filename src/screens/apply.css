@@ -1,0 +1,18 @@
+.applyWindow {
+    width: 100vw;
+    min-width: 100vw;
+    height: 100vh;
+    background-color: white;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+}
